@@ -6,5 +6,5 @@ type Query {
 type Person {
     firstName: String!
     lastName: String!
-    birthDay: Instant!
+    birthDay: Instant
 }
