@@ -3,6 +3,7 @@ query: |
     findPerson(id: 1){
       firstName
       lastName
+      birthDay
     }
   }
 operationName: FindPerson

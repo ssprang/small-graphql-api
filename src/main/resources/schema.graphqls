@@ -1,7 +1,10 @@
+scalar Instant
+
 type Query {
     findPerson(id: Long!): Person
 }
 type Person {
     firstName: String!
     lastName: String!
+    birthDay: Instant!
 }

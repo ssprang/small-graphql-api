@@ -2,7 +2,8 @@
   "data": {
     "findPerson": {
       "firstName": "Anna",
-      "lastName": "Andersson"
+      "lastName": "Andersson",
+      "birthDay": "1983-08-24T00:00:00Z"
     }
   }
 }
