@@ -1,4 +1,4 @@
-package com.example.smallbackendapi
+package com.example.smallgraphqlapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

@@ -1,7 +1,8 @@
 type Query {
-    findPerson(id: Long!): Person
+    findPerson(id: Int!): Person
 }
 type Person {
     firstName: String!
     lastName: String!
+    lastNameLength: Int!
 }

@@ -1,4 +1,4 @@
-package com.example.smallbackendapi.util
+package com.example.smallgraphqlapi.util
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.assertj.core.api.Assertions.assertThat

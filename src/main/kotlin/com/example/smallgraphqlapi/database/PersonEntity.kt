@@ -1,4 +1,4 @@
-package com.example.smallbackendapi.database
+package com.example.smallgraphqlapi.database
 
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
@@ -6,9 +6,9 @@ import javax.persistence.GenerationType
 import javax.persistence.Id
 
 @Entity
-data class PersonEntity(
+class PersonEntity(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    val id: Long = 0,
+    val id: Int = 0,
     val firstName: String,
     val lastName: String
 )

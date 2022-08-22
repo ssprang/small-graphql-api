@@ -1,9 +1,9 @@
-# Small backend api
+# Small graphql api
 This repo contains an example api using:
 * Kotlin
 * Maven
 * Spring boot
-* GraphQL
+* Spring GraphQL
 * H2 Database
 * JUnit 5
 

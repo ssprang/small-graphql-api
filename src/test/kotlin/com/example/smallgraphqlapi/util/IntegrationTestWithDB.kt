@@ -1,4 +1,4 @@
-package com.example.smallbackendapi.util
+package com.example.smallgraphqlapi.util
 
 import org.junit.jupiter.api.TestInstance
 import org.springframework.boot.test.context.SpringBootTest
