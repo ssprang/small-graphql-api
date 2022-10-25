@@ -1,8 +1,15 @@
 type Query {
     findPerson(id: Int!): Person
+    findPersons(page: Int! = 0, size: Int! = 10): PersonPage!
 }
+
 type Person {
     firstName: String!
     lastName: String!
     lastNameLength: Int!
+}
+
+type PersonPage {
+    totalElements: Int!
+    content: [Person!]!
 }
